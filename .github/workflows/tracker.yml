@@ -38,7 +38,7 @@ jobs:
         env:
           TWELVEDATA_KEY: ${{ secrets.TWELVEDATA_KEY }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-          TICKERS: "SPY,QQQ,META"
+          TICKERS: "SPY,QQQ,META,TSLA,NVDA,AAPL,"
       - name: Save state
         run: |
           git config user.name "tracker-bot"
